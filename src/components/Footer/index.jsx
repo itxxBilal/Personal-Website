@@ -5,6 +5,7 @@ import {
   faLinkedin,
   faGithub,
   faXTwitter,
+  faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 
 
@@ -90,23 +91,26 @@ function Footer() {
       <FooterWrapper>
         <Nav>
           <NavLink href="#about">Home</NavLink>
-          <NavLink href="https://www.youtube.com/@itx-bilal72" target="_blank">
+          <NavLink href="https://www.youtube.com/@itx_bilal172" target="_blank">
             YouTube
           </NavLink>
           <NavLink href="mailto:contact.bilalofficial@gmail.com">Contact Us</NavLink>
         </Nav>
         <SocialMediaIcons>
           
-          <SocialMediaIcon href="https://www.facebook.com/m.bilal172">
+          <SocialMediaIcon href="https://www.facebook.com/itxxbilal172"  target="_blank">
             <FontAwesomeIcon icon={faFacebook} />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://twitter.com/itx_bilal172">
+          <SocialMediaIcon href="https://twitter.com/itx_bilal172" target="_blank">
             <FontAwesomeIcon icon={faXTwitter} />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://github.com/itxxBilal">
+          <SocialMediaIcon href="https://github.com/itxxBilal" target="_blank">
             <FontAwesomeIcon icon={faGithub} />
           </SocialMediaIcon>
-          <SocialMediaIcon href="https://www.linkedin.com/in/bilal172/">
+          <SocialMediaIcon href="https://www.youtube.com/@itx_bilal172" target="_blank">
+            <FontAwesomeIcon icon={faYoutube} />
+          </SocialMediaIcon>
+          <SocialMediaIcon href="https://www.linkedin.com/in/bilal172/" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </SocialMediaIcon>
         </SocialMediaIcons>

@@ -1,35 +1,40 @@
 import { Link as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 // import _default from '../../themes/default';
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500;600&family=Reenie+Beanie&display=swap');
+</style>
 
 export const Nav = styled.div`
-backdrop-filter: blur(16px);
+
     height: 65px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    padding: 8px 20px;
+    padding: 8px 5px;
     position: fixed;
     top: 30px;
     left: 30px;
     right: 30px;
     z-index: 100;
-    border: solid white 1px;
-    border-radius: 15px;
+  
     @media (max-width: 960px) {
       top: 15px;
         trastion: 0.8s all ease;
     }
 `;
 export const NavbarContainer = styled.div`
+backdrop-filter: blur(16px);
+border: solid white 1px;
+border-radius: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 60px;
   z-index: 1;
   width: 100%;
-  padding: 0 0px;
+  padding: 0 px;
   max-width: 1200px;
 `;
 
@@ -64,13 +69,15 @@ export const NavItems = styled.ul`
 `;
 
 export const NavLink = styled.a`
-    color: ${({ theme }) => theme.text_primary};
+font-family: 'Edu TAS Beginner', cursive;
+font-family: 'Reenie Beanie', cursive;
+    color: white;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
     transition: border-color 0.3s;
-    :hover {
+:hover {
       border-bottom: 2px solid red;
       color: red;
     }
@@ -127,11 +134,13 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.5rem;
     cursor: pointer;
+    bottom:30px;
  color: white;
   }
 `
 
 export const MobileMenu = styled.div`
+
     display: flex;
     flex-direction: column;c
     justify-content: center;
@@ -141,7 +150,7 @@ export const MobileMenu = styled.div`
     right: 7.5px;
     width: 95%;
     padding: 12px 40px 24px 40px;
-    background: #1c1a238c;
+    background: #2b196b6e;
     transition: all 0.6s ease-in-out;
     transform: ${({ isOpen }) => (isOpen ? 'translateY(0)' : 'translateY(-100%)')};
     border-radius: 0 0 20px 20px;
