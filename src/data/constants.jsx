@@ -4,14 +4,14 @@ import PFTP from "./PFTP.jpg";
 import PIAIC from "./PIAIC.png";
 import ITXDEV from "./bg-logo-itx.png";
 import HOME from "./HO.avif";
-import  abeera from "./Projects/Abeera.png";
+import abeera from "./Projects/Abeera.png";
 import calligraphy from "./Projects/calligraphy.png";
 import Counter from "./Projects/Counter.png";
 import Vcard from "./Projects/v-Card Project.png";
+import Watch from "./Projects/Itx Watch.jpg";
 import Portfolio1 from "./Projects/Portfolio.png";
 import Movie from "./Projects/Movie.png";
 import PDF from "./Certi.png";
-
 
 export const Bio = {
   name: "Muhammad Bilal",
@@ -81,7 +81,8 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
+        image:
+          "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
       },
       {
         name: "Express Js",
@@ -103,13 +104,13 @@ export const skills = [
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
-    
+
       {
         name: "MongoDB",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-    ,
+      ,
     ],
   },
   // {
@@ -192,15 +193,17 @@ export const experiences = [
     company: "Itx-Developer",
     date: "Dec 2022 - July 2023",
     desc: "For the past 1.5 years, I've embarked on a self-guided journey into the world of coding from the comfort of my home. During this time, I've consistently honed my programming skills, exploring various languages and technologies. This self-discipline has allowed me to gain a deep understanding of software development and problem-solving. I'm determined to continue my learning and contribute to the ever-evolving tech landscape.",
-    skills: [ "HTML",
-    "CSS",
-    "JavaScript",
-    "TypeScript",
-    "NEXT.JS",
-    "ReactJS",
-    "ExpressJS",
-    "NodeJs",
-    "MongoDB",],
+    skills: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "NEXT.JS",
+      "ReactJS",
+      "ExpressJS",
+      "NodeJs",
+      "MongoDB",
+    ],
     doc: calligraphy,
   },
   {
@@ -329,12 +332,25 @@ export const education = [
 
 export const projects = [
   {
+    id: 4,
+    title: "Watch E-Commerce Website",
+    date: "11 Nov 2023",
+    description: "I've created an E-commerce Watch Shop website using HTML, CSS, and JavaScript for a project, featuring watches for sale.",
+    image: Watch,
+    tags: ["HTML", "CSS", "JS", "Node JS"],
+    category: "Website",
+    github: "https://github.com/itxxBilal/Watch-E-Commerce",
+    webapp: "https://itx-watch.vercel.app/",
+  },
+  
+  {
     id: 0,
     title: "Calligraphy-Website",
     date: "Aug 2023",
-    description: "I created an elegant e-commerce site for calligraphy enthusiasts, featuring handcrafted products, smooth navigation, and secure online shopping, using HTML, CSS, and JavaScript.",
+    description:
+      "I created an elegant e-commerce site for calligraphy enthusiasts, featuring handcrafted products, smooth navigation, and secure online shopping, using HTML, CSS, and JavaScript.",
     image: calligraphy,
-    tags: ["HTML", "CSS","JAVASCRIPT"],
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
     category: "web app",
     github: "https://github.com/itxxBilal/Calligraphy-site",
     webapp: "https://calligraphy-site.vercel.app/",
@@ -358,22 +374,22 @@ export const projects = [
     title: "Abeera's Portfolio",
     date: "Sep 2023",
     description:
-    "I built a React portfolio site for my friend, skillfully presenting their talents, while also showcasing my own development skills.",
+      "I built a React portfolio site for my friend, skillfully presenting their talents, while also showcasing my own development skills.",
     image: abeera,
-    tags: ["HTML5", "CSS", "JS","ReactJs","JSX"],
+    tags: ["HTML5", "CSS", "JS", "ReactJs", "JSX"],
     category: "web app",
     github: "https://github.com/itxxBilal/Abeers-React-Portfolio",
     webapp: "https://abeera.vercel.app/",
   },
-  
+
   {
     id: 1,
     title: "Counter App",
     date: "Aug 2023",
     description:
-    "I'm Bilal, a web developer. I've built a React counter app that delivers accurate counting and smooth performance, showcasing my expertise in coding and user-friendly design.",
+      "I'm Bilal, a web developer. I've built a React counter app that delivers accurate counting and smooth performance, showcasing my expertise in coding and user-friendly design.",
     image: Counter,
-    tags: ["HTML", "CSS","JavaScrpit","React Js" ],
+    tags: ["HTML", "CSS", "JavaScrpit", "React Js"],
     category: "web app",
     github: "https://github.com/itxxBilal/Counter-App",
     webapp: "https://counter-app-eight-dusky.vercel.app/",
@@ -385,7 +401,7 @@ export const projects = [
     description:
       "I designed a minimalist portfolio website using HTML, CSS, and JavaScript to display my work, skills, and contact information stylishly, showcasing my frontend prowess.",
     image: Portfolio1,
-    tags: ["HTML", "CSS","JAVASCRIPT"],
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
     category: "machine learning",
     github: "https://github.com/itxxBilal/portfolio-website",
     webapp: "https://itxxbilal.github.io/portfolio-website/",
@@ -408,9 +424,10 @@ export const projects = [
     id: 3,
     title: "V-Card",
     date: "Sep 2023",
-    description: "I created a V-card resume website using HTML, CSS, and JavaScript to showcase my skills, experience, and achievements professionally and attractively.",
+    description:
+      "I created a V-card resume website using HTML, CSS, and JavaScript to showcase my skills, experience, and achievements professionally and attractively.",
     image: Vcard,
-    tags: ["HTML", "CSS","JAVASCRIPT"],
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
     category: "android app",
     github: "https://github.com/itxxBilal/v-Card-Portfolio",
     webapp: "https://v-card-portfolio.vercel.app/",
@@ -427,9 +444,10 @@ export const projects = [
     id: 10,
     title: "Movie Website Clone",
     date: "Oct 2023",
-    description: "I developed a responsive movie clone website in React, leveraging APIs to display film data, offering an interactive cinematic experience.",
+    description:
+      "I developed a responsive movie clone website in React, leveraging APIs to display film data, offering an interactive cinematic experience.",
     image: Movie,
-    tags: ["HTML", "CSS","JavaScript","Reactjs"],
+    tags: ["HTML", "CSS", "JavaScript", "Reactjs"],
     category: "android app",
     github: "https://github.com/itxxBilal/React-movieclone-Project",
     webapp: "https://react-movieclone-project.vercel.app/",
@@ -442,19 +460,9 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: 4,
-  //   title: "",
-  //   date: "",
-  //   description:
-  //     "",
-  //   image:
-  //     "",
-  //   tags: ["React Js", "Firebase", "Firestore", "Node JS"],
-  //   category: "web app",
-  //   github: "",
-  //   webapp: "",
-  // },
+
+ 
+
   // {
   //   id: 5,
   //   title: "",
@@ -508,4 +516,3 @@ export const projects = [
   //   webapp: "",
   // },
 ];
-
