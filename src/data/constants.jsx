@@ -12,6 +12,7 @@ import Watch from "./Projects/Itx Watch.jpg";
 import Portfolio1 from "./Projects/Portfolio.png";
 import Movie from "./Projects/Movie.png";
 import PDF from "./Certi.png";
+import SMS from "./Projects/SMS.jpeg";
 
 export const Bio = {
   name: "Muhammad Bilal",
@@ -144,7 +145,7 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -169,7 +170,7 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
       {
         name: "Adobe XD",
@@ -179,7 +180,7 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format",
       },
     ],
   },
@@ -331,6 +332,21 @@ export const education = [
 ];
 
 export const projects = [
+
+  {
+    id: 5,
+    title: "Student Management System",
+    date: "Jan-5-2024",
+    description:
+      "Student Management System Project In Python,Python Project using Tkinter with MYSQL Database " ,
+    image:SMS,
+    tags: ["Python", "Tkinter", "SQL", ],
+    category: "app",
+    github: "https://github.com/itxxBilal/Student-Management-System",
+    webapp: "https://github.com/itxxBilal/Student-Management-System",
+  },
+
+
   {
     id: 4,
     title: "Watch E-Commerce Website",
@@ -357,7 +373,7 @@ export const projects = [
     member: [
       {
         name: "Muhammad Bilal",
-        img: "https://media.licdn.com/dms/image/D4D03AQGq-knicwkXbg/profile-displayphoto-shrink_200_200/0/1677837315133?e=1701302400&v=beta&t=HoCfYjHNcx_3WUPd8z7fyLESe0FWJU8F31_mNdM9Cok",
+        img: "https://avatars.githubusercontent.com/u/119156465?v=4",
         linkedin: "https://www.linkedin.com/in/bilal172//",
         github: "https://github.com/itxxBilal/",
       },
@@ -408,7 +424,7 @@ export const projects = [
     member: [
       {
         name: "Muhammad Bilal",
-        img: "https://media.licdn.com/dms/image/D4D03AQGq-knicwkXbg/profile-displayphoto-shrink_200_200/0/1677837315133?e=1701302400&v=beta&t=HoCfYjHNcx_3WUPd8z7fyLESe0FWJU8F31_mNdM9Cok",
+        img: "https://avatars.githubusercontent.com/u/119156465?v=4",
         linkedin: "https://www.linkedin.com/in/bilal172//",
         github: "https://github.com/itxxBilal/",
       },
@@ -434,7 +450,7 @@ export const projects = [
     member: [
       {
         name: "Muhammad Bilal",
-        img: "https://media.licdn.com/dms/image/D4D03AQGq-knicwkXbg/profile-displayphoto-shrink_200_200/0/1677837315133?e=1701302400&v=beta&t=HoCfYjHNcx_3WUPd8z7fyLESe0FWJU8F31_mNdM9Cok",
+        img: "https://avatars.githubusercontent.com/u/119156465?v=4",
         linkedin: "https://www.linkedin.com/in/bilal172//",
         github: "https://github.com/itxxBilal/",
       },
@@ -454,7 +470,7 @@ export const projects = [
     member: [
       {
         name: "Muhammad Bilal",
-        img: "https://media.licdn.com/dms/image/D4D03AQGq-knicwkXbg/profile-displayphoto-shrink_200_200/0/1677837315133?e=1701302400&v=beta&t=HoCfYjHNcx_3WUPd8z7fyLESe0FWJU8F31_mNdM9Cok",
+        img: "https://avatars.githubusercontent.com/u/119156465?v=4",
         linkedin: "https://www.linkedin.com/in/bilal172//",
         github: "https://github.com/itxxBilal/",
       },
@@ -463,19 +479,9 @@ export const projects = [
 
  
 
-  // {
-  //   id: 5,
-  //   title: "",
-  //   date: "Jun 2021",
-  //   description:
-  //     " ",
-  //   image:
-  //     "",
-  //   tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
-  //   category: "",
-  //   github: "",
-  //   webapp: "",
-  // },
+ 
+
+
   // {
   //   id: 6,
   //   title: "",

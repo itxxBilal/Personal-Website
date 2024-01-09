@@ -8,7 +8,6 @@ import {
   faYoutube
 } from "@fortawesome/free-brands-svg-icons";
 
-
 const FooterContainer = styled.div`
   width: 100%;
   padding: 2rem 0;
@@ -55,10 +54,40 @@ const NavLink = styled.a`
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
   &:hover {
-    color: ${({ theme }) => theme.primary};
+    color: white;
   }
   @media (max-width: 768px) {
     font-size: 1rem;
+  }
+`;
+
+const YouTubeNavLink = styled(NavLink)`
+  &:hover {
+    color: red;
+  }
+`;
+
+const FiverNavLink = styled(NavLink)`
+  &:hover {
+    color: green;
+  }
+`;
+
+const UpworkNavLink = styled(NavLink)`
+  &:hover {
+    color: green;
+  }
+`;
+
+const LinkedInNavLink = styled(NavLink)`
+  &:hover {
+    color: blue;
+  }
+`;
+
+const GithubNavLink = styled(NavLink)`
+  &:hover {
+    color: black;
   }
 `;
 
@@ -91,14 +120,15 @@ function Footer() {
       <FooterWrapper>
         <Nav>
           <NavLink href="#about">Home</NavLink>
-          <NavLink href="https://www.youtube.com/@itx_bilal172" target="_blank">
+          <YouTubeNavLink href="https://www.youtube.com/@itx_bilal172" target="_blank">
             YouTube
-          </NavLink>
+          </YouTubeNavLink>
           <NavLink href="mailto:contact.bilalofficial@gmail.com">Contact Us</NavLink>
+          <FiverNavLink href="https://www.fiverr.com/itxbilal172"target="_blank" >Fiver</FiverNavLink>
+          <UpworkNavLink href="https://www.upwork.com/freelancers/~01ba8310b3e933d19e?referrer_url_path=/nx/search/talent/details/~01ba8310b3e933d19e/profile" target="_blank" >Upwork</UpworkNavLink>
         </Nav>
         <SocialMediaIcons>
-          
-          <SocialMediaIcon href="https://www.facebook.com/itxxbilal172"  target="_blank">
+          <SocialMediaIcon href="https://www.facebook.com/itxxbilal172" target="_blank">
             <FontAwesomeIcon icon={faFacebook} />
           </SocialMediaIcon>
           <SocialMediaIcon href="https://twitter.com/itx_bilal172" target="_blank">
@@ -114,7 +144,7 @@ function Footer() {
             <FontAwesomeIcon icon={faLinkedin} />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; {new Date().getFullYear()} Developed by Bilal</Copyright>
+        <Copyright> &copy;2023 - {new Date().getFullYear()} Developed by Bilal</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
