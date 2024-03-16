@@ -13,6 +13,7 @@ import Portfolio1 from "./Projects/Portfolio.png";
 import Movie from "./Projects/Movie.png";
 import PDF from "./Certi.png";
 import SMS from "./Projects/SMS.jpeg";
+import NAVTTC from "./Navttc.jpg";
 
 export const Bio = {
   name: "Muhammad Bilal",
@@ -172,11 +173,7 @@ export const skills = [
         image:
           "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
+     
       {
         name: "Figma",
         image:
@@ -318,7 +315,7 @@ export const education = [
     date: "Nov 20 - Currently",
     grade: "92.2%",
     desc: "At PIAIC Institute, I'm immersed in a comprehensive coding curriculum, delving into Next.js, HTML, CSS, React, Redux, and an array of essential development tools. The program equips me with skills vital for modern web development, setting the stage for an exciting journey in the world of coding and technology.",
-    degree: "Web Development",
+    degree: "Full-Stack (Web Development)",
   },
 
   {
@@ -328,6 +325,17 @@ export const education = [
     date: "OCT 11 2023",
     grade: "80%",
     desc: "I successfully completed my MERN Stack course, mastering HTML, CSS, JavaScript, React, Node, Express, and MongoDB. Ready for new challenges!",
+    degree: "MERN-Stack (Web Development)",
+  },
+
+  {
+    id: 4,
+    img: NAVTTC,
+    school: "National Vocational and Technical Training Commission (NAVTTC) ",
+    date: "Feb 26 2024-In progress",
+    grade: "Not declared",
+    desc: "I am currently enrolled in the NACTT Web Development Course at Corvit Systems. The program covers a range of essential web development skills, from HTML and CSS to JavaScript and popular frameworks. The hands-on approach and collaborative learning environment are shaping me into a proficient web developer.",
+    degree: "Certificate in IT (Web Development)",
   },
 ];
 

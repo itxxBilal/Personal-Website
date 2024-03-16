@@ -114,6 +114,14 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+const DotHr = styled.hr`
+  border: none;
+  // height: 0.40px;
+  background: ${({ theme }) => theme.text_primary};
+  width: 150%; /* Adjust the width of the dot as needed */
+  // margin: 10px auto; /* Center the dot */
+`;
+
 function Footer() {
   return (
     <FooterContainer>
@@ -127,6 +135,7 @@ function Footer() {
           <FiverNavLink href="https://www.fiverr.com/itxbilal172"target="_blank" >Fiver</FiverNavLink>
           <UpworkNavLink href="https://www.upwork.com/freelancers/~01ba8310b3e933d19e?referrer_url_path=/nx/search/talent/details/~01ba8310b3e933d19e/profile" target="_blank" >Upwork</UpworkNavLink>
         </Nav>
+        <DotHr />
         <SocialMediaIcons>
           <SocialMediaIcon href="https://www.facebook.com/itxxbilal172" target="_blank">
             <FontAwesomeIcon icon={faFacebook} />
