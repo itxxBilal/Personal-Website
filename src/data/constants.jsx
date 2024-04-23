@@ -301,6 +301,15 @@ export const education = [
   },
   {
     id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJq9BEHVMu6-4-ZT2mFKU46o7QK2CQdUuzhbrwi2AHmg&s",
+    school: "PVTC - Punjab Vocational Training Council",
+    date: "April 2017 - June 2017 ",
+    grade: "74.0%",
+    desc: "I've successfully completed my IT Literacy Course at PVTC (Punjab Vocational Training Council), specializing in computer data entry, email management, and computer operations.",
+    degree: " IT Literacy",
+  },
+  {
+    id: 2,
     img: FGC,
     school: "Frontier College",
     date: "Nov 2021 - July 2023 ",
@@ -309,7 +318,7 @@ export const education = [
     degree: "Inter(XII), With Computer Science",
   },
   {
-    id: 1,
+    id: 3,
     img: PIAIC,
     school: "PIAIC Institute",
     date: "Nov 20 - Currently",
@@ -319,7 +328,7 @@ export const education = [
   },
 
   {
-    id: 3,
+    id: 4,
     img: PFTP,
     school: "PFTP - Professional Freelancing Training Program",
     date: "OCT 11 2023",
@@ -329,7 +338,7 @@ export const education = [
   },
 
   {
-    id: 4,
+    id: 5,
     img: NAVTTC,
     school: "National Vocational and Technical Training Commission (NAVTTC) ",
     date: "Feb 26 2024-In progress",
